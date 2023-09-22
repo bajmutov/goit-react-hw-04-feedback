@@ -1,0 +1,33 @@
+button {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: rgb(42, 9, 9);
+}
+
+.alert {
+  color: white;
+}
+.info {
+  composes: alert;
+  color: blue;
+}
+.success {
+  composes: alert;
+  color: green;
+}
+.error {
+  composes: alert;
+  color: red;
+}
+.warning {
+  composes: alert;
+  color: orange;
+}
+
+.total {
+  composes: alert;
+  color: rgb(133, 5, 101);
+}
