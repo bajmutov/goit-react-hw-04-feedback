@@ -1,5 +1,5 @@
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
-  console.log('options', options);
+  // console.log('options', options);
   return (
     <>
       {options.map(option => (
